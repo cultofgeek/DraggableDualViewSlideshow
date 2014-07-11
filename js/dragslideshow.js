@@ -1,5 +1,6 @@
 /**
- * dragslideshow.js v1.0.0
+ * dragslideshow.js v1.0.1
+ * Modified to use jQuery instead of classie
  * http://www.codrops.com
  *
  * Licensed under the MIT license.
@@ -105,7 +106,7 @@
 		this.slideshowRatio = this.options.slideshowRatio;
 
 		// add class "current" to first slide
-		classie.add( this.slides[ this.current ], 'current' );
+		$(this.slides[ this.current ]).addClass('current');
 		
 		// the pages/content
 		this.pages = this.el.querySelector( 'section.pages' );
@@ -213,15 +214,15 @@
 		if( this.isContent ) {
 			// enable the dragdealer
 			this.dd.enable();
-			classie.remove( this.el, 'show-content' );
+			$(this.el).removeClass( 'show-content' );
 		}
 		else {
 			// before: scroll all the content up
 			page.scrollTop = 0;
 			// disable the dragdealer
 			this.dd.disable();
-			classie.add( this.el, 'show-content' );	
-			classie.add( page, 'show' );
+			$(this.el).addClass('show-content');
+			$(page).addClass('show');
 		}
 
 		var self = this,
@@ -231,7 +232,7 @@
 					this.removeEventListener( transEndEventName, onEndTransitionFn );
 				}
 				if( self.isContent ) {
-					classie.remove( page, 'show' );	
+					$(page).removeClass('show');
 				}
 				self.isContent = !self.isContent;
 				self.isAnimating = false;
@@ -268,9 +269,9 @@
 	 */
 	DragSlideshow.prototype._navigate = function( x, y ) {
 		// add class "current" to the current slide / remove that same class from the old current slide
-		classie.remove( this.slides[ this.current || 0 ], 'current' );
+		$( this.slides[ this.current || 0 ]).removeClass( 'current' );
 		this.current = this.dd.getStep()[0] - 1;
-		classie.add( this.slides[ this.current ], 'current' );
+		$( this.slides[ this.current ]).addClass( 'current' );
 	}
 
 	/**
@@ -287,9 +288,14 @@
 		
 		// callback
 		this.options.onToggle();
-
-		classie.remove( this.el, this.isFullscreen ? 'switch-max' : 'switch-min' );
-		classie.add( this.el, this.isFullscreen ? 'switch-min' : 'switch-max' );
+		if (this.isFullscreen){
+			$(this.el).removeClass('switch-max');
+			$(this.el).addClass('switch-min');
+		}
+		else{
+			$(this.el).removeClass('switch-min');
+			$(this.el).addClass('switch-max');
+		}
 		
 		var self = this,
 			p = this.options.perspective,
@@ -311,8 +317,14 @@
 			}
 
 			// replace class "img-dragger-large" with "img-dragger-small"
-			classie.remove( this, self.isFullscreen ? 'img-dragger-large' : 'img-dragger-small' );
-			classie.add( this, self.isFullscreen ? 'img-dragger-small' : 'img-dragger-large' );
+			if (self.isFullscreen){
+				$(this).removeClass('img-dragger-large');
+				$(this).addClass('img-dragger-small');
+			}
+			else{
+				$(this).removeClass('img-dragger-small');
+				$(this).addClass('img-dragger-large');
+			}
 
 			// reset transforms and set width & height
 			self.imgDragger.style.WebkitTransform = 'translate3d( -50%, -50%, 0px )';
@@ -350,4 +362,4 @@
 	 */
 	window.DragSlideshow = DragSlideshow;
 
-} )( window );
+} )( window);

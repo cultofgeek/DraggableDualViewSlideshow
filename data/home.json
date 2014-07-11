@@ -1,0 +1,44 @@
+{
+	"sections": [
+	{"title": "Lorem Waldy", 
+	 "subhead": "Distilling design ideas and other interesting topics",
+	 "content": "<p>One could not help contrasting this large force from Australia and New Zealand—a force that was to be doubled and trebled ere long—with the little force of 500 men which William Bede Dalley, Australian Orator and Patriot, sent from New South Wales to the Sudan just thirty years before. It spoke not only of the wonderful growth in population of Britain's Dominions of the South, but it was a living proof that the years had only served to cement the bonds of love and loyalty that bind the grand old Mother land to her Oversea Dominions. The rising in India, the intention of the Australians to proclaim their independence the moment when Britain found herself in peril—where were they? Where now was the disintegration of the British Empire which the German Emperor and his War Lords had so confidently predicted?</p>", 
+	 "image": "img/1.jpg"},
+	 
+	{"title": "Round Table", 
+	 "subhead": "King Arthur's creative team techniques",
+	 "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel pellentesque lectus. Fusce auctor consequat urna nec tempor. Aliquam condimentum eu sapien in dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris a aliquam ipsum. Phasellus vulputate, elit eget bibendum hendrerit, metus eros iaculis sapien, dignissim condimentum urna mi et libero. Mauris vitae sodales quam, in convallis sem. Ut sit amet condimentum diam. Praesent eu nisi dui. Praesent ut gravida ligula.<\/p>", 
+	 "image": "img/2.jpg"},
+	 
+	 {"title": "Taking Sneezes", 
+	 "subhead": "Nothing is out there &mdash; let's try again",
+	 "content": "<p>Morbi gravida, magna nec mollis auctor, ante ligula lobortis elit, nec pharetra sapien lectus eu odio. Ut urna ligula, sodales nec nulla sit amet, hendrerit euismod turpis. Vestibulum fringilla euismod augue, eu consequat ligula ornare quis. Ut enim eros, hendrerit eu commodo id, consectetur sed erat. Pellentesque urna nibh, cursus ac mauris a, tempus tempus ante. Fusce iaculis erat et mauris elementum, at commodo leo condimentum. Vestibulum at tempus risus. Curabitur id aliquam dolor. Maecenas nisi libero, vehicula et leo sollicitudin, tempus porttitor lacus. Vestibulum porttitor gravida nulla vitae faucibus. Maecenas sagittis erat enim, non consectetur arcu laoreet vitae. In hac habitasse platea dictumst. Aenean fringilla aliquam nulla, et gravida nunc vulputate nec. Vivamus sapien quam, accumsan ac nunc vitae, hendrerit eleifend lacus.</p>", 
+	 "image": "img/3.jpg"},
+	 
+	{"title": "Heavy Talks", 
+	 "subhead": "Heated conversations in the back yard",
+	 "content": "<p>Integer sapien ante, semper in volutpat at, fermentum non turpis. Proin sollicitudin quam eget elit ultricies dapibus. Donec sagittis metus urna, sed rhoncus ante elementum sit amet. Vivamus nec auctor ipsum. Nam luctus bibendum augue ac sagittis. Aenean egestas id lacus vel ullamcorper. Mauris hendrerit sed enim a suscipit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam in imperdiet ante. Mauris vitae dui libero. Ut tristique tristique enim nec semper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur ullamcorper dui sed neque tempus, vitae fringilla nulla pretium. Mauris porta facilisis sapien, a viverra massa. Vivamus eu odio molestie, egestas turpis et, faucibus augue.</p>", 
+	 "image": "img/4.jpg"},
+	 
+	{"title": "Mountain Sun", 
+	 "subhead": "Crazy nature and other weather ideas",
+	 "content": "<p>Aliquam mollis orci non orci mattis, nec ornare nulla semper. Quisque dapibus eleifend elementum. Cras posuere ac purus a sodales. Maecenas non velit congue, venenatis diam eu, mollis elit. Quisque commodo ipsum sit amet tincidunt vulputate. Donec viverra, tellus id rhoncus posuere, lorem nibh auctor lacus, nec lobortis dolor erat vitae dui. Phasellus congue, augue vitae tincidunt fermentum, ipsum massa tincidunt velit, at ullamcorper risus odio id libero. Donec eget bibendum quam. Aenean elit risus, convallis sit amet suscipit iaculis, vestibulum faucibus lacus. Integer sed elit ut risus auctor mattis. Aliquam ut ipsum iaculis, bibendum nulla eget, convallis purus. Proin nulla leo, adipiscing quis nisi eget, vestibulum auctor urna. In ultrices nibh non dignissim cursus. Maecenas congue eros id ornare rutrum.</p>", 
+	 "image": "img/5.jpg"},
+	 
+	{"title": "Beloved Mother", 
+	 "subhead": "Decomposing fruits and burning houses",
+	 "content": "<p>Nunc molestie egestas tellus, sed posuere libero vestibulum eu. Vestibulum et sollicitudin nulla, non pretium urna. Cras congue sit amet dolor ut tincidunt. Maecenas a ultrices nisl, eu malesuada tortor. Curabitur porta diam sit amet aliquet vestibulum. Proin a lacus consequat, scelerisque urna vitae, sodales lorem. Pellentesque pharetra ut est sit amet tempor. In at elit rhoncus, rhoncus nisl ut, mollis ipsum. Fusce pulvinar euismod consectetur. Suspendisse neque turpis, tincidunt in est sit amet, vestibulum sollicitudin nulla. Aenean eu fermentum velit. Vivamus malesuada metus tortor, a blandit enim blandit eu. Praesent posuere, metus vel pharetra semper, nisl purus vehicula diam, in cursus est nunc vel odio. Vestibulum purus felis, fermentum sed lacus non, sollicitudin sagittis nunc. Proin lacinia dui id eleifend mollis. Sed eu ante iaculis, suscipit odio sit amet, gravida ipsum.</p>", 
+	 "image": "img/6.jpg"},
+	 
+	{"title": "Kale", 
+	 "subhead": "Only kale could make her happy",
+	 "content": "<p>Aliquam mollis orci non orci mattis, nec ornare nulla semper. Quisque dapibus eleifend elementum. Cras posuere ac purus a sodales. Maecenas non velit congue, venenatis diam eu, mollis elit. Quisque commodo ipsum sit amet tincidunt vulputate. Donec viverra, tellus id rhoncus posuere, lorem nibh auctor lacus, nec lobortis dolor erat vitae dui. Phasellus congue, augue vitae tincidunt fermentum, ipsum massa tincidunt velit, at ullamcorper risus odio id libero. Donec eget bibendum quam. Aenean elit risus, convallis sit amet suscipit iaculis, vestibulum faucibus lacus. Integer sed elit ut risus auctor mattis. Aliquam ut ipsum iaculis, bibendum nulla eget, convallis purus. Proin nulla leo, adipiscing quis nisi eget, vestibulum auctor urna. In ultrices nibh non dignissim cursus. Maecenas congue eros id ornare rutrum.</p>", 
+	 "image": "img/7.jpg"},
+	 
+	{"title": "Happiness", 
+	 "subhead": "On self-sufficient homes and pets",
+	 "content": "<p>Aliquam mollis orci non orci mattis, nec ornare nulla semper. Quisque dapibus eleifend elementum. Cras posuere ac purus a sodales. Maecenas non velit congue, venenatis diam eu, mollis elit. Quisque commodo ipsum sit amet tincidunt vulputate. Donec viverra, tellus id rhoncus posuere, lorem nibh auctor lacus, nec lobortis dolor erat vitae dui. Phasellus congue, augue vitae tincidunt fermentum, ipsum massa tincidunt velit, at ullamcorper risus odio id libero. Donec eget bibendum quam. Aenean elit risus, convallis sit amet suscipit iaculis, vestibulum faucibus lacus. Integer sed elit ut risus auctor mattis. Aliquam ut ipsum iaculis, bibendum nulla eget, convallis purus. Proin nulla leo, adipiscing quis nisi eget, vestibulum auctor urna. In ultrices nibh non dignissim cursus. Maecenas congue eros id ornare rutrum.</p>", 
+	 "image": "img/8.jpg"}	 
+	
+	]
+}

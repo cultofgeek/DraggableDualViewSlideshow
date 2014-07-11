@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'feathericons';
-	src:url('../fonts/feathericons/feathericons.eot?2h4ajg');
-	src:url('../fonts/feathericons/feathericons.eot?#iefix2h4ajg') format('embedded-opentype'),
-		url('../fonts/feathericons/feathericons.woff?2h4ajg') format('woff'),
-		url('../fonts/feathericons/feathericons.ttf?2h4ajg') format('truetype'),
-		url('../fonts/feathericons/feathericons.svg?2h4ajg#feathericons') format('svg');
+	src:url('../fonts/feathericons/feathericons.eot');
+	src:url('../fonts/feathericons/feathericons.eot') format('embedded-opentype'),
+		url('../fonts/feathericons/feathericons.woff') format('woff'),
+		url('../fonts/feathericons/feathericons.ttf') format('truetype'),
+		url('../fonts/feathericons/feathericons.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -15,6 +15,10 @@ body,
 .js .dragslider,
 .js .img-dragger .handle {
 	height: 100%;
+}
+
+.container{
+	position:relative;
 }
 
 html.js,
@@ -66,11 +70,11 @@ button.slider-switch {
 	height: 80px;
 	padding: 0;
 	color: transparent;
-	position: relative;
+	position: absolute;
+	right: 0px;
 	border: none;
-	background: url(../img/switchmin.svg) no-repeat center center;
+	background: url(../img/switchmin.png) no-repeat center center;
 	background-size: 90%;
-	float: right;
 	outline: none;
 	overflow: hidden;
 	opacity: 0.7;
@@ -84,7 +88,7 @@ button.slider-switch {
 }
 
 button.slider-switch.view-maxi {
-	background-image: url(../img/switchmax.svg)
+	background-image: url(../img/switchmax.png)
 }
 
 button.slider-switch:hover {

@@ -1,13 +1,3 @@
-@font-face {
-	font-weight: normal;
-	font-style: normal;
-	font-family: 'codropsicons';
-	src:url('../fonts/codropsicons/codropsicons.eot');
-	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
-		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
-		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
-}
 
 *, *:after, *:before { border-box; box-sizing: border-box; }
 .clearfix:before, .clearfix:after { content: ''; display: table; }
@@ -109,15 +99,15 @@ a:hover, a:focus {
 }
 
 .info span.info-drag {
-	background-image: url(../img/drag.svg);
+	background-image: url(../img/drag.png);
 }
 
 .info span.info-keys {
-	background-image: url(../img/keys.svg);
+	background-image: url(../img/keys.png);
 }
 
 .info span.info-switch {
-	background-image: url(../img/switchmin.svg);
+	background-image: url(../img/switchmin.png);
 	background-size: 65%;
 }
 
@@ -137,53 +127,6 @@ a:hover, a:focus {
 
 .info button:hover {
 	opacity: 1;
-}
-
-/* To Navigation Style */
-.codrops-top {
-	width: 100%;
-	text-transform: uppercase;
-	font-weight: 400;
-	font-size: 0.69em;
-	line-height: 2.2;
-	top: 0;
-	left: 0;
-}
-
-.codrops-top a {
-	display: inline-block;
-	padding: 0 1em;
-	text-decoration: none;
-	letter-spacing: 1px;
-}
-
-.codrops-top span.right {
-	float: right;
-}
-
-.codrops-top span.right a {
-	display: block;
-	float: left;
-}
-
-.codrops-icon:before {
-	margin: 0 4px;
-	text-transform: none;
-	font-weight: normal;
-	font-style: normal;
-	font-variant: normal;
-	font-family: 'codropsicons';
-	line-height: 1;
-	speak: none;
-	-webkit-font-smoothing: antialiased;
-}
-
-.codrops-icon-drop:before {
-	content: "\e001";
-}
-
-.codrops-icon-prev:before {
-	content: "\e004";
 }
 
 @media screen and (max-width: 650px) {
